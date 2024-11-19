@@ -1,0 +1,104 @@
+/* About Page  */
+.about {
+  margin-top: 130px;
+}
+.main_card_about {
+  border: 5px solid var(--main-color);
+  border-radius: 5px;
+}
+.about_count_cir_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange-color);
+}
+.about_count_cir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: var(--white-color);
+  background-color: var(--light-black-color);
+}
+.count_card {
+  position: relative;
+  box-shadow: 9px 9px 15px var(--main-color);
+  color: var(--white-color);
+  background-color: var(--light-black-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+.count_card_h4 {
+  color: var(--main-color);
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.about_industries {
+  background: rgb(17, 14, 14);
+  background: -moz-linear-gradient(
+    159deg,
+    rgba(17, 14, 14, 1) 8%,
+    rgba(31, 90, 115, 1) 50%,
+    rgba(17, 14, 14, 1) 92%
+  );
+  background: -webkit-linear-gradient(
+    159deg,
+    rgba(17, 14, 14, 1) 8%,
+    rgba(31, 90, 115, 1) 50%,
+    rgba(17, 14, 14, 1) 92%
+  );
+  background: linear-gradient(
+    159deg,
+    rgba(17, 14, 14, 1) 8%,
+    rgba(31, 90, 115, 1) 50%,
+    rgba(17, 14, 14, 1) 92%
+  );
+}
+.indus_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: var(--black-color);
+  border: 5px solid var(--orange-color);
+}
+.about_foot_patti {
+  display: flex;
+  justify-content: space-between;
+}
+.about_h2_ind {
+  color: var(--white-color);
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .about_page_foot {
+    font-size: 20px;
+  }
+  .about_foot_patti {
+    display: block;
+  }
+  .about_h2_ind {
+    color: var(--white-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+  .about_p_tag_indu {
+    font-size: 10px;
+  }
+  .about {
+    margin-top: 90px;
+  }
+}
+/* _________________________________________ */

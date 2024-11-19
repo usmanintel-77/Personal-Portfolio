@@ -1,0 +1,29 @@
+.about_div{
+  display: flex;
+  justify-content: start; /* Default */
+}
+
+.about_img {
+  box-shadow: 9px 9px 15px var(--main-color);
+  width: 75%;
+}
+
+@media (max-width: 576px) {
+  .about_img {
+    box-shadow: 9px 9px 15px var(--main-color);
+    width: 60%;
+  }
+  .about_div{
+    justify-content: center; /* Changed to center for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .about_img {
+    box-shadow: 9px 9px 15px var(--main-color);
+    width: 60%;
+  }
+  .about_div{
+    justify-content: center; /* Changed to center for smaller screens */
+  }
+}
+

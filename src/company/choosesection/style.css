@@ -1,0 +1,111 @@
+/* Card Styleing */
+.circle-container1 {
+  width: 40px; /* Adjust the width and height as needed */
+  height: 40px;
+  border-radius: 15% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 1px 1px var(--main-color);
+
+  background: rgb(17, 14, 14);
+  background: -moz-linear-gradient(
+    159deg,
+    rgba(17, 14, 14, 1) 33%,
+    rgba(31, 90, 115, 1) 50%,
+    rgba(17, 14, 14, 1) 65%
+  );
+  background: -webkit-linear-gradient(
+    159deg,
+    rgba(17, 14, 14, 1) 33%,
+    rgba(31, 90, 115, 1) 50%,
+    rgba(17, 14, 14, 1) 65%
+  );
+  background: linear-gradient(
+    159deg,
+    rgba(17, 14, 14, 1) 33%,
+    rgba(31, 90, 115, 1) 50%,
+    rgba(17, 14, 14, 1) 65%
+  );
+}
+.card_port1 {
+  color: white;
+  background-color: var(--light-black-color);
+  box-shadow: -8px 0px 4px 0px var(--main-color);
+}
+.card_port1:hover {
+  color: white;
+  background-color: var(--light-black-color);
+  border-bottom: 0px solid #00b3fe;
+  box-shadow: 8px 0 8px #00b3fe;
+  transition: box-shadow 0.9s ease-in-out, color 0.9s ease-in-out,
+    background-color 0.9s ease-in-out, transform 0.9s ease-in-out;
+}
+.icon_hover3 {
+  color: var(--main-color);
+  font-size: 20px;
+}
+/* _____________________________ */
+/* Heading Styling */
+.choose_h6 {
+  color: var(--main-color);
+}
+.choose_h1 {
+  color: var(--white-color);
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+/* _____________________________ */
+/* Choose Button */
+.choose_btn {
+  background: var(--main-color);
+  background: -moz-linear-gradient(
+    159deg,
+    rgba(1, 186, 230, 1) 58%,
+    rgba(56, 120, 135, 1) 76%
+  );
+  background: -webkit-linear-gradient(
+    159deg,
+    rgba(1, 186, 230, 1) 58%,
+    rgba(56, 120, 135, 1) 76%
+  );
+  background: linear-gradient(
+    159deg,
+    rgba(1, 186, 230, 1) 58%,
+    rgba(56, 120, 135, 1) 76%
+  );
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid var(--main-color);
+  color: var(--white-color);
+}
+.choose_btn:hover {
+  background: rgb(251, 157, 5);
+  background: -moz-linear-gradient(
+    159deg,
+    rgba(251, 157, 5, 1) 58%,
+    rgba(134, 120, 98, 1) 76%
+  );
+  background: -webkit-linear-gradient(
+    159deg,
+    rgba(251, 157, 5, 1) 58%,
+    rgba(134, 120, 98, 1) 76%
+  );
+  background: linear-gradient(
+    159deg,
+    rgba(251, 157, 5, 1) 58%,
+    rgba(134, 120, 98, 1) 76%
+  );
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid rgb(251, 157, 5);
+  color: var(--white-color);
+}
+/* _____________________________ */

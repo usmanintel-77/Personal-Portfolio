@@ -1,0 +1,11 @@
+/* Blogs Page Style */
+.blogs_page_cont{
+    padding-top: 100px;
+}
+.blogs_page_h4{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.blogs_page_img_shad{
+  box-shadow: 9px 9px 15px var(--main-color);
+}

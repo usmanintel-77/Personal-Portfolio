@@ -1,0 +1,85 @@
+.location_hover {
+  color: var(--white-color);
+  display: inline-flex;
+  align-items: center;
+}
+.location_hover:hover {
+  color: var(--main-color);
+}
+.location_hover i {
+  transition: transform 0.3s ease-in-out;
+  font-size: 20px;
+}
+.location_hover:hover i {
+  transform: rotate(45deg);
+}
+/* _________________________ */
+.location_hover1 {
+  color: var(--white-color);
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  align-items: baseline;
+}
+
+.location_hover1:hover {
+  color: var(--main-color);
+  transform: translateX(10px); /* Adjust the value as needed */
+}
+/* ______________________ */
+.location_hover3 {
+  color: var(--white-color);
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.1s ease-in-out;
+}
+.location_hover3:hover {
+  animation: zoomInOut 2s infinite alternate;
+  color: var(--main-color);
+}
+.location_hover3 i {
+  transform-origin: center;
+}
+@keyframes zoomInOut {
+  to {
+    transform: scale(1.2);
+  }
+}
+/* Top Arrow Button */
+.top_arrow_btn {
+  background-color: var(--main-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: var(--white-color);
+}
+.top_arrow_btn:hover {
+  background-color: var(--white-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: var(--main-color);
+}
+/* Socail Icons Images */
+.social_icons_img {
+  display: flex;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  .social_icons_img {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.image-container:hover .zoom-image {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+.foot_bottom{
+background-color: var(--light-black-color);
+}
+.top_arrow_btn_div{
+background: none;
+border: none;
+}

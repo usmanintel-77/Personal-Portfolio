@@ -1,0 +1,51 @@
+.div_border {
+  --g: 6px; /* the gap */
+  --b: 6px; /* border thickness*/
+  --c: var(--main-color); /* the color */
+
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(125deg, var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
+  background: var(--_g1) var(--_p, 25%) 0, var(--_g2) 0 var(--_p, 125%),
+    var(--_g1) var(--_p, 125%) 100%, var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b), var(--b) 200%;
+  cursor: pointer;
+  filter: grayscale(25%); /* color opacity */
+  transition: 0.3s;
+  color: white;
+  background-color: #101111;
+}
+.div_border:hover {
+  --_p: 75%;
+  filter: grayscale(0%); /* color opacity */
+  color: var(--main-color);
+}
+
+.icon_hover {
+  font-size: 50px !important;
+  color: var(--main-color);
+}
+/* ______________________________________________ */
+.services_h5 {
+  color: var(--white-color);
+}
+.services_h2{
+    color: var(--main-color);
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.services_p{
+    font-size: 15px;
+}
+@media screen and (max-width: 768px){
+    .services_h5 {
+        font-size: 10px;
+      }  
+      .services_h2{
+        font-size: 15px;
+      }
+    }

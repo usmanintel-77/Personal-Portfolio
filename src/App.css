@@ -1,0 +1,31 @@
+/* ______________Body______________________ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* ______________Colors______________________ */
+:root {
+  --main-color: #00b3fe;
+  --orange-color: #ffa500;
+  --black-color: #000;
+  --white-color: #fff;
+  --dark-gray-color: #6c757d;
+  --light-black-color: #1a1d1d;
+  --light-white-color: #f1f1f1; /* Only use for scroll bar background Patti */
+}
+/* ______________Scroll Bar Start______________________ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--light-white-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--dark-gray-color);
+}
+/* ______________Scroll Bar End______________________ */
+.main_text_color{
+  color: var(--main-color);
+}
